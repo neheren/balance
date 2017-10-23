@@ -34,6 +34,7 @@ $("document").ready(function(){
 
     scrollLink("#menu-link", "#menu-placement")
     scrollLink("#back-link", ".link-menu")
+    scrollLink("#info-link", "#info-placement")
     menuLink = $("#menu-placement");
 })
 
@@ -45,20 +46,21 @@ $(window).scroll(function(){
         menuItems.each(function(element) {
             setTimeout(function(){
                 $(menuItems[element]).css({"opacity":1, "border-bottom": "1px solid rgba(255, 255, 255, 0.7)"});
-            }, element*50)
+            }, element*20)
+            $("h2").css({"opacity": 1});
         }, this);
     }
     forceLeft =70 - (offsetY - window.scrollY)/20;
     forceLeft = (forceLeft < 50) ? forceLeft : 50; 
     console.log(forceLeft)
     $("#left").animate({
-        "left" : forceLeft +"%"
-    }, 10)
+         "left" : forceLeft +"%",
+     }, 10)
     $("#right").animate({
         "left" : 100-forceLeft +"%"
     }, 10)
 
-
+    
 })
 
 

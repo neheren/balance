@@ -68,7 +68,7 @@ body {
 
 
 .menu{
-    width: 600px;    
+    width: 40vw;    
 }
 
 table{
@@ -102,6 +102,7 @@ td {
 }
 
 h2{
+    opacity: 0;
     font-size: 25px;
     margin-bottom: 0px;
     font-family: goth;
@@ -156,4 +157,91 @@ a{
     transform: translate(-50%, -50%);
     position: absolute;
 }
+
+
+.viginnette {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 200px rgba(0,0,0,0.4) inset;
+    pointer-events:none;
+}
+
+p{
+    font-size: 15px;
+    color:#B1AAAA;
+    font-family: goth;
+}
+
+
+p1{
+    margin:10px;
+    margin-left:10px;
+    font-size: 15px;
+    color:#9F9B9B;
+    font-family: goth;
+}
+
+.hightlight{
+    color:white;
+    
+}
+
+
+.bottom{
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height: 100px;
+    background:#252323;
+    
+}
+
+.footer{
+    font-size: 12px;
+    text-align: center;
+}
+
+iframe{
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+iframe:hover{
+    filter: grayscale(0%);
+}
+
+
+.section-header{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #E6E6E6;
+    font-family: goth;
+    font-size: 30px;
+    text-align: center;
+    font-weight: unset;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+	.slyt{
+		margin-top: -5vh;
+		width:50%;
+	}
+    .menu{
+        width: 60vw;    
+    }
+
+    h3{
+
+    }
+
+	.viginnette {
+        box-shadow: 0 0 200px rgba(0,0,0,0.5) inset;
+    }
+}
+
+
 
