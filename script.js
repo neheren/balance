@@ -19,11 +19,8 @@ $("document").ready(function(){
         "-webkit-transform":"translate(0px,0px)",
         "-ms-transform":"translate(0px,0px)",
         "transform":"translate(0px,0px)",
-<<<<<<< HEAD
         "height":"0.08vw"
-=======
-        "height":"0.1vw",
->>>>>>> 0b8f6b61ebfce76821a73a886a99743a9c1b7655
+
     })
 
     $middleLine.css({
