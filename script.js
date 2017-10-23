@@ -11,7 +11,7 @@ $("document").ready(function(){
         "-webkit-transform":"translate(0px,0px)",
         "-ms-transform":"translate(0px,0px)",
         "transform":"translate(0px,0px)",
-        "height":"0.1vw"
+        "height":"0.08vw"
     })
 
     $middleLine.css({
