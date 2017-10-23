@@ -6,7 +6,14 @@ $("document").ready(function(){
    
     $(".e_line").fadeIn(500);
         
+    $(".logo").css({"opacity": "1"});
 
+$(".logo").css({
+    "-webkit-transform":"translate(0px,0px)",
+    "-ms-transform":"translate(0px,0px)",
+    "transform":"translate(0px,0px)",
+})
+    
     $(".e_line").css({
         "-webkit-transform":"translate(0px,0px)",
         "-ms-transform":"translate(0px,0px)",
@@ -18,5 +25,6 @@ $("document").ready(function(){
         "width":"3vw"
     })
 
+    $("body").css({"background-color":"#101010"})
 
 })
